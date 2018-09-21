@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+     font-family: korolevbold;
+     src: url('KorolevBold.woff');
+}
+@font-face {
+	font-family: korolevheavy;
+	src: url('KorolevHeavy.woff');
+}
+@font-face {
+	font-family: korolevligth;
+	src: url('KorolevLight.woff');
+}
+@font-face {
+	font-family: KorolevMedium;
+	src: url('KorolevMedium.woff');
+}
+@font-face {
+	font-family: KorolevMediumItalic;
+	src: url('KorolevMediumItalic.woff');
+}
+.header{
+	height: 100vh;
+	background: url('assets/imgheader.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*.filtro{
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(to right, rgba(150, 217, 252, 0.3), rgba(235, 38, 143, 0.3));
+	position: absolute;
+	left: 200px;
+}*/
+.menurolativo{
+	position: fixed;
+}
+.menu{
+	background: #fff;
+	width: 200px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.imgmenu{
+	margin-top: 30px;
+	width: 190px;
+}
+.imgmenino{
+	width: 300px;
+	position: absolute;
+	left: 8%;
+	bottom: 1px;
+}
+.h1menu{
+	color: #fff;
+	font-family: korolevheavy, sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	position: absolute;
+	top: 23%;
+	left: 33%;
+}
+.textomenu{
+	margin: 20%;
+	display: flex;
+	flex-direction: column;
+}
+.linkmenu1, .linkmenu2, .linkmenu3, .linkmenu4{
+	margin: 5px;
+	font-family: "korolevbold", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #A6538D;
+}
+#linkmenu1:hover{
+	color: red;
+}
+#linkmenu2:hover{
+	color: red;
+}
+#linkmenu3:hover{
+	color: red;
+}
+#linkmenu4:hover{
+	color: red;
+}
+.divnuvem{
+	width: 100vw;
+	height: 30vh;
+	/*background: #000;*/
+	position: fixed;
+	top: 70%;
+}
+.nuvem{
+	width: 100vw;
+	height: 30vh;
+	position: absolute;
+}
+main{
+	background-color: #EB268F;
+	width: 100vw;
+	height: 100vh;
+}
+.sec_ativ{
+	height:100vh;
+	width: 80vw;
+}
+.sec_ativ_div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.sec_ativ_p{
+	height: 615px;
+	width: 380px;
+	color: #FFFFFF;
+	font: 30px korolev-Medium, sans-serif;
+	font-size: 17px;
+	padding-top: 60px;
+	position: relative;
+	top:10%;
+	left:25%;
+}
+.sec_ativ_div2{
+	width: 150px;
+	height: 50px;
+	display: flex;
+	flex-flow: row nowrap;
+	position: absolute;
+	right: 35%;
+	bottom:-43%;
+}
+.sec_ativ_div2-seta{
+	width: 20px;
+}
+.seta_esq{
+	margin: 0 15px;
+}
+.sec_ativ_div2_p{
+	height: 50px;
+	width: 90px;
+	font: 30px KorolevLight, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sec_ativ_div3{
+	margin-top: 100px;
+	height: 400px;
+	width: 600px;
+	background-color: green;
+	position: absolute;
+	right: 10px;
+}
+.sec_ativ_div3_img{
+	height: 400px;
+	width: 600px;
+}
+.espaçonav{
+	width: 200px;
+	height: 100vh;
+}
+footer{
+	display: flex;
+	flex direction: row;
+}
+.h1parceiros{
+	font-family: "korolevbold", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #A6538D;
+}
+.partnav{
+	width: 200px;
+	height: 100vh;
+	background: #000;
+}
+.parceiros{
+	margin-top: 70px;
+	margin-bottom: 100px;
+	position: relative;
+	left: 200px;
+}
+.logo1, .logo2, .logo3{
+	width: 100px;
+	margin: 50px;
+}
+.divcolumn{
+	display: flex;
+	flex-direction: column; 
+}
+.backgroundctts{
+	width: 70vw;
+	height: 100vh;
+	background: #A6538D;
+	display: flex;
+	flex-direction: column;
+	color: #fff; 
+	font-family: korolevbold, Sans-serif;
+}
+.h1contato{
+	font: 30px korolevbold, Sans-serif;
+	font-weight: bold;
+	margin: 80px 0 40px 60px;
+	color: #96D9FC;
+}
+.divcontatos{
+	margin-left: 60px;
+}
+.numero, .facebook{
+	color: yellow;
+}
