@@ -80,53 +80,55 @@
 }
 #linkmenu1:hover{
 	color: red;
+	text-decoration: underline;
 }
 #linkmenu2:hover{
 	color: red;
+	text-decoration: underline;
 }
 #linkmenu3:hover{
 	color: red;
+	text-decoration: underline;
 }
 #linkmenu4:hover{
 	color: red;
+	text-decoration: underline;
 }
 .divnuvem{
-	width: 100vw;
-	height: 30vh;
+	width: 100%;
+	bottom: 0px;
 	/*background: #000;*/
 	position: fixed;
-	top: 70%;
 }
 .nuvem{
-	width: 100vw;
-	height: 30vh;
+	width: 100%;
+	bottom: 0px;
 	position: absolute;
 }
 main{
 	background-color: #EB268F;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 }
 .sec_ativ{
-	height:100vh;
-	width: 80vw;
+	height:100%;
+	width: 100%;
+	position: relative;
 }
 .sec_ativ_div{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
 }
 .sec_ativ_p{
 	height: 615px;
 	width: 380px;
 	color: #FFFFFF;
-	font: 30px korolev-Medium, sans-serif;
+	font-family: korolev-Medium, sans-serif;
 	font-size: 17px;
-	padding-top: 60px;
+	margin-top: 60px;
+	margin-left: 250px;
 	position: relative;
-	top:10%;
-	left:25%;
 }
 .sec_ativ_div2{
 	width: 150px;
@@ -134,11 +136,15 @@ main{
 	display: flex;
 	flex-flow: row nowrap;
 	position: absolute;
-	right: 35%;
-	bottom:-43%;
+	right: 500px;
+	bottom:420px;
 }
 .sec_ativ_div2-seta{
 	width: 20px;
+	transition: 1s;
+}
+.sec_ativ_div2-seta:hover {
+	width: 30px;
 }
 .seta_esq{
 	margin: 0 15px;
@@ -155,20 +161,18 @@ main{
 	align-items: center;
 }
 .sec_ativ_div3{
-	margin-top: 100px;
 	height: 400px;
 	width: 600px;
-	background-color: green;
-	position: absolute;
-	right: 10px;
+	position: relative;
+	right: -250px;
+	bottom: 50px;
 }
 .sec_ativ_div3_img{
 	height: 400px;
 	width: 600px;
-}
-.espaçonav{
-	width: 200px;
-	height: 100vh;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 }
 footer{
 	display: flex;
@@ -183,7 +187,7 @@ footer{
 }
 .partnav{
 	width: 200px;
-	height: 100vh;
+	height: 100%;
 	background: #000;
 }
 .parceiros{
@@ -220,4 +224,14 @@ footer{
 }
 .numero, .facebook{
 	color: yellow;
+}
+#criancas_nuvem {
+	width: 700px;
+	position: absolute;
+	bottom: -990px;
+	right: 0px;
+}
+.crinu {
+	width: 100%;
+	position: absolute;
 }
